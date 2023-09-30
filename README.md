@@ -14,7 +14,7 @@ Ini adalah cara (yang saya ikuti dan kebetulan berhasil) untuk menginstall LAMP 
 11. kalau ingin membuat user phpmyadmin baru bisa melalui terminal dengan menggunakan command `sudo mysql -u root -p` lalu enter dan akan muncul prompt untuk mengisi password. Karena menggunakan user `root` maka tidak perlu password, tinggal tekan enter saja.
 12. Setelah itu buat user baru dengan command :
   ```
-  create user admin@localhost identified by 'test123'; (contoh : membuat user `admin` dengan password `test123`)
+  create user admin@localhost identified by 'test123'; (contoh : membuat user admin dengan password test123)
   grant all privileges on *.* to admin@localhost;
   FLUSH PRIVILEGES;
   exit;
